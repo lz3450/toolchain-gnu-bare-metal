@@ -9,7 +9,10 @@ if [[ $NAME == "Ubuntu" ]]; then
         libmicrohttpd-dev \
         libsqlite3-dev \
         libarchive-dev \
+        libncurses-dev \
         texinfo \
         bison \
-        flex
+        flex \
+        m4 \
+        python-is-python3
 fi
